@@ -1,0 +1,472 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1a1a1a;
+}
+
+header .logo img {
+  max-height: 50px;
+}
+
+.logo {
+  width: 40px;
+  height: 35px;
+  background: linear-gradient(135deg, #00ffb8, #00e9b8, #1f82ff);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header .menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+header .menu-toggle span {
+  background: #fff;
+  height: 2px;
+  margin: 4px 0;
+  width: 25px;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(45deg, #6e45e2, #88d3ce);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero .cta-buttons button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero .cta-buttons button:hover {
+  transform: scale(1.05);
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards,
+.features,
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icons img {
+  background: #1a1a1a;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.space-card {
+  width: 300px;
+  background-color: #e51777;
+  border-radius: 0.6rem;
+}
+
+.process-card {
+  margin-left: 2rem;
+  width: 300px;
+  background-color: #22b6ff;
+  border-radius: 0.6rem;
+}
+
+.materials-card {
+  margin-left: 2rem;
+  width: 300px;
+  background-color: #ffe115;
+  border-radius: 0.6rem;
+}
+
+.progress-card {
+  margin-left: 2rem;
+  width: 300px;
+  background-color: #3f48f5;
+  border-radius: 0.6rem;
+}
+
+.features .feature:hover,
+.icons img:hover {
+  transform: scale(1.05);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-toggle {
+    display: flex;
+  }
+
+  .cards,
+  .features,
+  .icons {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  header .menu-toggle {
+    display: none;
+  }
+}
+
+.learning-pods {
+  position: relative;
+  height: 400px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.learning-pods::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  height: 800px;
+  background-image: url("/assets/images/Scroll_Group_7.png");
+  background-repeat: repeat-y;
+  background-size: 100% calc(50% - 1px);
+  background-position: center top;
+  transition: background-position 0.3s ease;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+  display: block;
+}
+
+.segments,
+.services {
+  padding: 12px 16px;
+}
+
+.segments div,
+.services div {
+  padding: 8px 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s;
+}
+
+.small-card {
+  width: 200px;
+  height: 300px;
+  opacity: 0.5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  align-content: center;
+}
+
+.center-card {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.center-card:hover {
+  transform: translateY(-10px);
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card-image {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+  height: 100%;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card-content p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card-content p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.center-card:hover .center-image {
+  background-image: url("/mnt/data/image.png");
+}
+
+.center-card:hover .card-content {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.left-image {
+  background-image: url("/assets/images/Icon Box 3 (2).svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.showcase-left-image {
+  background-image: url("/assets/images/Icon Box 1 (4).svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stay-left-image {
+  background-image: url("/assets/images/Icon Box 2.svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.right-image {
+  background-image: url("/assets/images/Icon Box 2.svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.showcase-right-image {
+  background-image: url("/assets/images/Icon Box 3 (2).svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.stay-right-image {
+  background-image: url("/assets/images/Icon Box 1 (4).svg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.center-card:hover {
+  transform: translateY(-10px);
+}
+
+.center-image {
+  background-image: url("/assets/images/Icon Box 1 (3).svg");
+  transition: background-image 0.3s;
+}
+
+.center-card:hover .center-image {
+  background-image: url("/assets/images/Icon Box 1 (4).svg");
+}
+
+.showcase-center-image {
+  background-image: url("/assets/images/Icon Box 2 (3).svg");
+  transition: background-image 0.3s;
+}
+
+.showcase-center-image:hover {
+  background-image: url("/assets/images/Icon Box 2.svg");
+}
+
+.stay-center-image {
+  background-image: url("/assets/images/Icon Box 3 (1).svg");
+  transition: background-image 0.3s;
+}
+
+.stay-center-image:hover {
+  background-image: url("/assets/images/Icon Box 3 (2).svg");
+}
+
+.center-card:hover .card-content {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contact {
+  width: 136px;
+  height: 46px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background: transparent linear-gradient(162deg, #d4ff6a 0%, #00e9b8 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.feature-card {
+  position: relative;
+  width: 300px;
+  height: 421px;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  transition: transform 0.3s, background-color 0.3s;
+  background-color: #e51777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 24px;
+  transition: opacity 0.3s;
+}
+
+.feature-card:hover .feature-arrow {
+  opacity: 0;
+}
+
+.feature-image {
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s;
+}
+
+.feature-image-content {
+  background-image: url("/assets/images/More Space.svg"); 
+}
+
+.process-image-content {
+  background-image: url("/assets/images/More Process.svg"); 
+}
+
+.materials-image-content {
+  background-image: url("/assets/images/More Materials.svg"); 
+}
+
+.progress-image-content {
+  background-image: url("/assets/images/More Progress.svg"); 
+}
+.feature-card:hover {
+  background-color: grey;
+}
+
+.feature-card:hover .feature-image {
+  transform: translateY(-50%);
+}
+
+.feature-text {
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover .feature-text h2 {
+  transform: translateY(-50%);
+}
+
+.hover-text {
+  display: none;
+}
+
+.feature-card:hover .hover-text {
+  display: block;
+  margin-top: 20px;
+}
+
+
+.download-app {
+  display: flex;
+}
