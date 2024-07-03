@@ -565,7 +565,7 @@ section {
 .learning-pods {
   padding-top: 5%;
   position: relative;
-  height: 400px;
+  height: 475px;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -594,7 +594,7 @@ section {
 }
 
 .cards {
-  height: 150vh;
+  height: 200vh;
   background-image: url("/assets/images/Scroll_Group_7.png");
   background-repeat: repeat-y;
   background-size: 100% calc(50% - 1px);
@@ -611,8 +611,6 @@ nav ul li {
   display: inline-block;
   padding: 10px;
 }
-
-
 
 .contact {
   width: 136px;
@@ -839,5 +837,3 @@ nav ul li {
   left: -13.5rem;
   transform: translateY(-50%);
 }
-
-
