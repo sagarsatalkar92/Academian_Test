@@ -1,0 +1,19 @@
+<svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+              <linearGradient id="upperGrad" gradientTransform="rotate(196)">
+                  <stop offset="0%" style="stop-color:#D4FF6A;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#00E9B8;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="leftGrad" gradientTransform="rotate(196)">
+                  <stop offset="0%" style="stop-color:#D4FF6A;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#00E9B8;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="rightGrad" gradientTransform="rotate(155)">
+                  <stop offset="0%" style="stop-color:#19D0F8;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#005DFF;stop-opacity:1" />
+              </linearGradient>
+          </defs>
+          <polygon points="22,0 11,22 22,22" fill="url(#upperGrad)" />
+          <polygon points="22,0 0,44 11,44 22,22" fill="url(#leftGrad)" />
+          <polygon points="22,0 22,22 33,44 44,44" fill="url(#rightGrad)" />
+      </svg>
