@@ -353,6 +353,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding: 50px;
+  border-top: 1px solid;
 }
 
 .section {
@@ -558,29 +559,6 @@ section {
 .features,
 .new-learning-process {
   padding-top: 5%;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  header nav ul {
-    display: none;
-  }
-
-  header .menu-toggle {
-    display: flex;
-  }
-
-  .cards,
-  .features,
-  .icons {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 769px) {
-  header .menu-toggle {
-    display: none;
-  }
 }
 
 .learning-pods {
@@ -858,7 +836,7 @@ nav ul li {
 }
 
 .feature-card:hover .feature-image {
-  transform: translateY(-50%);
+  transform: translateY(-62%);
 }
 
 .feature-text {

@@ -1,0 +1,22 @@
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  header .menu-toggle {
+    display: flex;
+  }
+
+  .cards,
+  .features,
+  .icons {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  header .menu-toggle {
+    display: none;
+  }
+}
