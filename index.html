@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Academian Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/fonts/font.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
-      </div>
+      <div class="logo"></div>
       <nav>
         <ul class="items-center">
           <li>
@@ -37,10 +44,9 @@
           <li>Product</li>
           <li>Courses</li>
           <li>About</li>
-          <li >
+          <li>
             <button class="contact">Contact</button>
-            
-        </li>
+          </li>
         </ul>
       </nav>
       <div class="menu-toggle">
@@ -51,17 +57,37 @@
     </header>
     <main>
       <section class="hero">
-        <h1>Simplify Learning Experiences with Learning Pods</h1>
-        <p>
-          Explore our platform. Connect with your learning community. Curate a
-          better world, one byte of knowledge at a time.
-        </p>
-        <div class="hero-image">
-          <img src="assets/images/Group 8610.png" alt="Learning Pods" />
-        </div>
-        <div class="cta-buttons">
-          <button>Download</button>
-          <button>Sign Up</button>
+        <div class="hero-content">
+          <div class="image-container">
+            <img
+              src="assets/images/Union 9.svg"
+              alt="Learning Pods"
+              class="svg-img"
+            />
+            <div class="image-text">
+              <h2>Simplify Learning Experiences with Learning Pods</h2>
+              <p class="poppins-light">
+                Explore our platform. Connect with your learning community.
+                Curate a better world, one byte of knowledge at a time.
+              </p>
+            </div>
+            <img
+              src="assets/images/Group 8582.png"
+              alt="Learning community"
+              class="png-img"
+            />
+            <img
+              src="assets/images/Group 8610.png"
+              alt="Better world"
+              class="lower-img"
+            />
+          </div>
+          <div class="cta-buttons">
+            <button class="download-btn">Download</button>
+            <button class="sign-up-btn">
+              Sign Up <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
         </div>
       </section>
       <section class="learning-pods">
@@ -71,23 +97,30 @@
           expertise, connect with one another as a community and explore a
           myriad of opportunities.
         </p>
-        <div class="cards">
-        </div>
+        <div class="cards"></div>
       </section>
 
       <section class="new-learning-process">
         <h2>Explore a new learning process</h2>
+        <p>
+          Embark on a transformative journey of discovery, where each day brings
+          a new, engaging learning experience
+        </p>
         <div class="features" style="margin-top: 2rem">
           <div class="container">
             <div class="small-card">
               <div class="card-image left-image"></div>
             </div>
             <div class="card center-card">
-                <div class="card-image center-image"></div>
-                <div class="card-content">
-                    <h2>Create & Curate</h2>
-                    <p>Use open educational materials to create micro lessons on the fly. Be an engagement champion by combining your wits with a wide range of learning tools.</p>
-                </div>
+              <div class="card-image center-image"></div>
+              <div class="card-content">
+                <h2>Create & Curate</h2>
+                <p class="new-learning-text">
+                  Use open educational materials to create micro lessons on the
+                  fly. Be an engagement champion by combining your wits with a
+                  wide range of learning tools.
+                </p>
+              </div>
             </div>
             <div class="small-card">
               <div class="card-image right-image"></div>
@@ -99,11 +132,15 @@
               <div class="card-image showcase-left-image"></div>
             </div>
             <div class="card center-card">
-                <div class="card-image showcase-center-image"></div>
-                <div class="card-content">
-                    <h2>Showcase your pods</h2>
-                    <p>Share your pods with your friends, and let it ripple into impacting the community. Invite your buddies and enjoy learning together.</p>
-                </div>
+              <div class="card-image showcase-center-image"></div>
+              <div class="card-content">
+                <h2>Showcase your pods</h2>
+                <p>
+                  Share your pods with your friends, and let it ripple into
+                  impacting the community. Invite your buddies and enjoy
+                  learning together.
+                </p>
+              </div>
             </div>
             <div class="small-card">
               <div class="card-image showcase-right-image"></div>
@@ -115,84 +152,136 @@
               <div class="card-image stay-left-image"></div>
             </div>
             <div class="card center-card">
-                <div class="card-image stay-center-image"></div>
-                <div class="card-content">
-                    <h2>Stay in the loop</h2>
-                    <p>Gain perspectives. Embrace differences. Develop insights and collaborate to share your knowledge with the world. Learning is most effective when done collectively.</p>
-                </div>
+              <div class="card-image stay-center-image"></div>
+              <div class="card-content">
+                <h2>Stay in the loop</h2>
+                <p>
+                  Gain perspectives. Embrace differences. Develop insights and
+                  collaborate to share your knowledge with the world. Learning
+                  is most effective when done collectively.
+                </p>
+              </div>
             </div>
             <div class="small-card">
               <div class="card-image stay-right-image"></div>
             </div>
           </div>
-
         </div>
       </section>
       <section class="social-learning">
-        <h2>Improve your social learning game</h2>
-        <p>
+        <h2 class="heading">Improve your social learning game</h2>
+        <p class="social-text">
           Enhance your social learning prowess with Pods, where connecting and
           growing together is at the heart of our mission.
         </p>
         <div class="icons">
-          <img src="assets/images/Component 51 – 1 (1).svg" alt="social" />
+          <div class="hover-container">
+            <img
+              src="assets/images/Component 51 – 1 (1).svg"
+              data-src-hover="assets/images/Component 51 – 1.svg"
+              alt="social"
+              class="hover-trigger"
+            />
+            <div class="info info-north">
+              <h4>Power Up your searches</h4>
+              <p>
+                Searching has never been easier and more intuitive. Do more with
+                super search.
+              </p>
+            </div>
+            <div class="info info-south">
+              <h4>Join learning communities</h4>
+              <p>
+                Find and grow with your learning tribe; shine among your peers
+              </p>
+            </div>
+            <div class="info info-east">
+              <h4>Get creative. Build portfolios.</h4>
+              <p>
+                Elegantly showcase your knowledge with a creative suite of
+                tools.
+              </p>
+            </div>
+            <div class="info info-west">
+              <h4>Reach out to your audience</h4>
+              <p>
+                Engage your audience in ways they have never imagined before.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
+
       <section class="fun-learning">
-        <h2>Have fun with more.</h2>
-        <p>
+        <h2 class="heading">Have fun with more.</h2>
+        <p class="fun-text">
           Experience the delight of learning with more content, more
           connections, more fun as you enter a world of new pathways of making
           education entertaining and engaging using a diverse range of materials
           at your fingertips.
         </p>
         <div class="features">
-          <div class="feature-card space-card">
-              <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
-              <div class="feature-image feature-image-content"></div>
-              <div class="feature-text">
-                  <h2>More Space</h2>
-                  <p class="hover-text">Create spaces with all the content without restrictions in the way.</p>
-              </div>
+          <div class="feature-card space-card" id="arrow-icon">
+            <div class="feature-image feature-image-content"></div>
+            <div class="feature-text">
+              <h2>More Space</h2>
+              <i class="fas fa-arrow-right"></i>
+              <p class="hover-text">
+                Create spaces with all the content without restrictions in the
+                way.
+              </p>
+            </div>
           </div>
           <div class="feature-card process-card">
-              <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
-              <div class="feature-image process-image-content"></div>
-              <div class="feature-text">
-                  <h2>More Process</h2>
-                  <p class="hover-text">Create processes with all the content without restrictions in the way.</p>
-              </div>
+            <div class="feature-image process-image-content"></div>
+            <div class="feature-text">
+              <h2>More Process</h2>
+              <i class="fas fa-arrow-right"></i>
+              <p class="hover-text">
+                Create processes with all the content without restrictions in
+                the way.
+              </p>
+            </div>
           </div>
           <div class="feature-card materials-card">
-              <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
-              <div class="feature-image materials-image-content"></div>
-              <div class="feature-text">
-                  <h2>More Materials</h2>
-                  <p class="hover-text">Create materials with all the content without restrictions in the way.</p>
-              </div>
+            <div class="feature-image materials-image-content"></div>
+            <div class="feature-text">
+              <h2>More Materials</h2>
+              <i class="fas fa-arrow-right"></i>
+              <p class="hover-text">
+                Create materials with all the content without restrictions in
+                the way.
+              </p>
+            </div>
           </div>
           <div class="feature-card progress-card">
-              <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
-              <div class="feature-image progress-image-content"></div>
-              <div class="feature-text">
-                  <h2>More Progress</h2>
-                  <p class="hover-text">Create progress with all the content without restrictions in the way.</p>
-              </div>
+            <div class="feature-image progress-image-content"></div>
+            <div class="feature-text">
+              <h2>More Progress</h2>
+              <i class="fas fa-arrow-right"></i>
+              <p class="hover-text">
+                Create progress with all the content without restrictions in the
+                way.
+              </p>
+            </div>
           </div>
-      </div>
+        </div>
       </section>
       <section class="download-app">
-        <div style="flex-direction: column;">
-        <h2>Download the app</h2>
-        <p style="padding: 3rem;">
-          Unlock a world of limitless learning possibilities. Download the
-          Learning Pods app today.
-        </p>
-        <div class="cta-buttons">
-          <button>Google Play</button>
-          <button>App Store</button>
+        <div class="flex" style="flex-direction: column; align-self: center">
+          <h2>Download the app</h2>
+          <p class="download-text" style="padding-top: 1.5rem">
+            Unlock a world of limitless learning possibilities. Download the
+            Learning Pods app today.
+          </p>
+          <div class="share-icon">
+            <img src="assets/images/google-play-badge.svg" alt="social" />
+            <img
+              src="assets/images/download-on-the-app-store.svg"
+              alt="social"
+            />
+          </div>
         </div>
-      </div>
         <div class="app-image">
           <img src="assets/images/Download Image.png" alt="Learning Pods" />
         </div>
