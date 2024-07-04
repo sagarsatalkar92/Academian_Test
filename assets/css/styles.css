@@ -362,3 +362,9 @@ section {
 .hover-card h3 {
   border-bottom: 1px solid;
 }
+.features {
+  display: flex;
+}
+#featureCarousel {
+  display: none;
+}

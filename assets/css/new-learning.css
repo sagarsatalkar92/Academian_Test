@@ -42,7 +42,7 @@
 }
 
 .show-hover-image {
-  background: url("/assets/images/Icon Box 2 (3).svg") 0% 0% no-repeat !important;
+  background: url("/assets/images/Icon Box 2 (3).svg") 0% 0% / contain no-repeat !important;
 }
 
 .show-hover-image:hover {
@@ -58,7 +58,7 @@
 }
 
 .stay-hover-image {
-  background: url("/assets/images/Icon Box 3 (1).svg") 0% 0% no-repeat !important;
+  background: url("/assets/images/Icon Box 3 (1).svg") 0% 0% / contain no-repeat !important;
 }
 
 .stay-hover-image:hover {

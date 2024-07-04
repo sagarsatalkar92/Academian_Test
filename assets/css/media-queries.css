@@ -8,6 +8,9 @@
     display: flex;
   }
 
+  .icon-container {
+    margin-left: 10px !important;
+  }
   .cards,
   .features,
   .icons {
@@ -37,14 +40,37 @@
   }
   .text-card {
     width: 245px !important;
+    padding: 0px !important;
   }
+  .text-card p {
+    font: normal normal 300 14px Poppins !important;
+  }
+
+  .social-learning {
+    margin-top: 35% !important;
+  }
+
+  .space-card {
+    margin-left: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .materials-card {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .hover-container div {
+    display: none;
+  }
+
   .lower-img {
     width: 45%;
     transform: translateY(-3rem) !important;
   }
   .svg-img {
     transform: translate(-50%, -39%) scale(0.3) !important;
-}
+  }
   .image-text h2 {
     font: normal normal normal 20px Poppins !important;
   }
@@ -55,34 +81,189 @@
   }
   .heading {
     font: normal normal normal 30px Poppins !important;
-}
+  }
 
-.image-text {
-  top: calc(16%) !important; 
-  padding: 0 0% !important;
-}
+  .image-text {
+    top: calc(25%) !important;
+    padding: 0 0% !important;
+  }
 
-.image-text p {
-  font: normal normal 300 12px Poppins;
-  padding-left: 0rem !important;
-  padding-right: 0rem !important;
-}
+  .image-text p {
+    font: normal normal 300 12px Poppins;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .learning-pods h2,
+  .new-learning-process h2 {
+    font: normal normal normal 20px Poppins !important;
+  }
+  .download-app {
+    flex-direction: column !important;
+  }
 
-.images-wrapper {
-  justify-content: left !important;
-}
+  .cta-buttons {
+    margin-top: 0% !important;
+  }
+  .download-btn,
+  .sign-up-btn {
+    font-size: 10px !important;
+  }
 
-.learning-pods h2, .new-learning-process h2 {
-  font: normal normal normal 30px / 35px Poppins !important;
-}
-.download-app {
-  flex-direction: column !important;
-}
+  .learning-pods p,
+  .new-learning-process p {
+    font: normal normal 300 12px / 36px Poppins;
+    letter-spacing: -0.24px;
+    color: #ffffff;
+  }
 
+  #featureCarousel {
+    display: flex;
+  }
+
+  .feature-card {
+    width: 85% !important;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
   header .menu-toggle {
     display: none;
+  }
+  .icon-container {
+    margin-left: 10px !important;
+  }
+
+  .contact {
+    width: 90px !important;
+    height: 36px !important;
+    border-radius: 15px !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font: normal normal 500 12px Poppins !important;
+  }
+  .nav-item {
+    margin-right: 10px !important;
+    padding: 0px !important;
+
+    font: normal normal 500 10px Poppins !important;
+  }
+
+  .lower-img {
+    transform: translateY(-5rem) !important;
+    width: 73% !important;
+  }
+
+  header nav ul li {
+    margin: 0 0rem !important;
+  }
+
+  .hover-image {
+    width: 200px !important;
+    height: 200px !important;
+    background-size: contain !important;
+  }
+
+  .side-image {
+    width: 120px !important;
+    height: 200px !important;
+  }
+  .left-image,
+  .right-image {
+    margin-top: 10% !important;
+  }
+
+  .app-image img {
+    width: 50%;
+  }
+  .text-card {
+    width: 245px !important;
+    padding: 0px !important;
+  }
+  .text-card p {
+    font: normal normal 300 18px Poppins !important;
+  }
+
+  .download-app {
+    flex-direction: column !important;
+  }
+
+  .image-text h2 {
+    font: normal normal normal 20px / 48px Poppins !important;
+  }
+
+  .image-text p {
+    font: normal normal normal 16px / 48px Poppins !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+
+  .image-text {
+    top: calc(25%) !important;
+    padding: 0 0% !important;
+  }
+
+  .image-text p {
+    font: normal normal 300 12px Poppins;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .learning-pods h2,
+  .new-learning-process h2 {
+    font: normal normal normal 20px Poppins !important;
+  }
+
+  .heading {
+    font: normal normal normal 30px Poppins !important;
+  }
+
+  .materials-card {
+    margin-left: 0rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .progress-card {
+    margin-top: 2rem !important;
+  }
+
+  .learning-pods p,
+  .new-learning-process p {
+    font: normal normal 300 18px / 36px Poppins;
+    letter-spacing: -0.24px;
+    color: #ffffff;
+    padding: 0% 10% !important;
+  }
+
+  .download-btn,
+  .sign-up-btn {
+    font-size: 14px !important;
+  }
+  .cta-buttons {
+    margin-top: -8% !important;
+  }
+
+  .images-wrapper {
+    margin-top: 5rem !important;
+  }
+
+  .info h4 {
+    font-size: 14px !important;
+  }
+
+  .info p {
+    font-size: 12px !important;
+  }
+
+  .icons img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .info-west {
+    left: -7.5rem !important;
+  }
+
+  .info-east {
+    top: 34.5%;
+    right: -7.5rem !important;
   }
 }
