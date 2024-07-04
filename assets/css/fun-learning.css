@@ -1,0 +1,82 @@
+
+.social-text {
+    padding-bottom: 5%;
+  }
+  
+  .share-icon img {
+    width: 10rem;
+  }
+  
+  .social-learning {
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .icons {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-trigger {
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-container:hover .info {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .info {
+    position: absolute;
+    background-color: #262626;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: Poppins !important;
+  }
+  
+  .info h4 {
+    font-weight: normal;
+    font-size: 18px;
+  }
+  
+  .info p {
+    font-weight: lighter;
+    font-size: 16px;
+  }
+  
+  .info-north {
+    top: -5rem;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+  
+  .info-south {
+    bottom: -3.5rem;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+  
+  .info-east {
+    top: 34.5%;
+    right: -13.5rem;
+    transform: translateY(-50%);
+  }
+  
+  .info-west {
+    top: 34.5%;
+    left: -13.5rem;
+    transform: translateY(-50%);
+  }
+  
