@@ -266,4 +266,8 @@
     top: 34.5%;
     right: -7.5rem !important;
   }
+
+  .nav-item .hover-card {
+    padding: 0% !important;
+  }
 }
