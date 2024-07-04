@@ -348,3 +348,17 @@ section {
   text-align: center;
   padding: 0% 25%;
 }
+
+.learning {
+  font: normal normal 500 36px Poppins;
+  border-bottom: 1px solid;
+}
+
+.learning-p {
+  font: normal normal 300 18px/27px Poppins;
+  letter-spacing: -0.81px;
+}
+
+.hover-card h3 {
+  border-bottom: 1px solid;
+}

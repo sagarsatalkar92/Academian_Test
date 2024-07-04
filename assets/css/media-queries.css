@@ -16,6 +16,69 @@
   .nav-items {
     display: none;
   }
+
+  .hover-image {
+    width: 150px !important;
+    height: 150px !important;
+    background-size: contain !important;
+  }
+
+  .side-image {
+    width: 120px !important;
+    height: 200px !important;
+  }
+  .left-image,
+  .right-image {
+    margin-top: 10% !important;
+  }
+
+  .app-image img {
+    width: 50%;
+  }
+  .text-card {
+    width: 245px !important;
+  }
+  .lower-img {
+    width: 45%;
+    transform: translateY(-3rem) !important;
+  }
+  .svg-img {
+    transform: translate(-50%, -39%) scale(0.3) !important;
+}
+  .image-text h2 {
+    font: normal normal normal 20px Poppins !important;
+  }
+
+  .icons img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .heading {
+    font: normal normal normal 30px Poppins !important;
+}
+
+.image-text {
+  top: calc(16%) !important; 
+  padding: 0 0% !important;
+}
+
+.image-text p {
+  font: normal normal 300 12px Poppins;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
+.images-wrapper {
+  justify-content: left !important;
+}
+
+.learning-pods h2, .new-learning-process h2 {
+  font: normal normal normal 30px / 35px Poppins !important;
+}
+.download-app {
+  flex-direction: column !important;
+}
+
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
