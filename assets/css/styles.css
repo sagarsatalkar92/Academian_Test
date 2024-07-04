@@ -202,6 +202,7 @@ section {
   border-radius: 30px;
   cursor: pointer;
   text-transform: uppercase;
+  font: normal normal 500 20px Poppins;
 }
 
 .contact:hover {
@@ -314,7 +315,7 @@ section {
   border-radius: 30px;
   transform: none !important;
   text-transform: uppercase;
-  font: normal normal medium 20px/100px Poppins !important;
+  font: normal normal 500 20px Poppins !important;
   letter-spacing: -0.4px;
   color: #000000;
 }
@@ -325,6 +326,8 @@ section {
   border-radius: 30px;
   color: #fff !important;
   transform: none !important;
+  font: normal normal 500 20px Poppins;
+  letter-spacing: -0.4px;
 }
 .heading {
   text-align: center;
@@ -332,11 +335,16 @@ section {
   color: #ffffff;
   padding-top: 5%;
   padding-bottom: 1%;
+  font: normal normal normal 60px Poppins;
+}
+.heading p {
+  font: normal normal 300 24px Poppins;
 }
 .fun-text,
 .social-text,
 .download-text,
-.learning-pods p {
+.learning-pods p,
+.learning-padiding {
   text-align: center;
   padding: 0% 25%;
 }

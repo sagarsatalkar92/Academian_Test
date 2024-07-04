@@ -1,5 +1,5 @@
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+/* Media Queries for Mobile */
+@media (max-width: 599px) {
   header nav ul {
     display: none;
   }
@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 600px) and (max-width: 1199px) {
   header .menu-toggle {
     display: none;
   }
