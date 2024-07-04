@@ -1,9 +1,17 @@
 /* Header CSS  start*/
+
+:root {
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+  --primary: 0, 88, 208;
+  --green: 1, 147, 97;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
+  background-color:  rgb(var(--black));
   height: 100px;
   position: sticky;
   top: 0;
@@ -33,7 +41,7 @@ nav {
 .nav-item {
   position: relative;
   margin-right: 20px;
-  color: #fff;
+  color:  rgb(var(--white));
   padding: 10px 20px;
   cursor: pointer;
   font: normal normal 500 20px Poppins;
@@ -49,8 +57,8 @@ nav {
   right: 0;
   width: 100vw;
   height: auto;
-  background-color: #000;
-  color: #fff;
+  background-color:  rgb(var(--black));
+  color:  rgb(var(--white));
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px 100px;
   z-index: 100;
@@ -100,7 +108,7 @@ nav ul li:hover svg {
 
 .segments h2,
 .services h2 {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid  rgb(var(--white));
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -143,7 +151,7 @@ nav ul li:hover svg {
 }
 
 .all-services {
-  color: #fff;
+  color:  rgb(var(--white));
   text-decoration: none;
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
@@ -192,7 +200,7 @@ header .menu-toggle {
 }
 
 header .menu-toggle span {
-  background: #fff;
+  background:  rgb(var(--white));
   height: 2px;
   margin: 4px 0;
   width: 25px;
@@ -257,7 +265,7 @@ header .menu-toggle span {
 }
 
 .link {
-  color: #fff;
+  color:  rgb(var(--white));
   text-decoration: none;
   font-weight: bold;
 }
@@ -352,7 +360,7 @@ h2 {
 }
 
 .links a {
-  color: #fff;
+  color:  rgb(var(--white));
   text-decoration: none;
   font-weight: bold;
   margin-right: 20px;
@@ -388,7 +396,7 @@ h2 {
 }
 
 .life-at-academian .text a {
-  color: #fff;
+  color:  rgb(var(--white));
   text-decoration: none;
   font-weight: bold;
 }
@@ -442,7 +450,7 @@ p {
 }
 
 a {
-  color: #fff;
+  color:  rgb(var(--white));
   text-decoration: none;
   font-weight: bold;
   display: block;

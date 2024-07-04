@@ -1,4 +1,12 @@
 
+:root {
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+  --primary: 0, 88, 208;
+  --green: 1, 147, 97;
+}
+
+
 .social-text {
     padding-bottom: 5%;
   }
@@ -36,7 +44,7 @@
   .info {
     position: absolute;
     background-color: #262626;
-    color: #fff;
+    color:  rgb(var(--black));
     border-radius: 4px;
     padding: 10px;
     width: 50%;

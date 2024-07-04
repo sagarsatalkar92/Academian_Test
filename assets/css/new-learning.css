@@ -1,8 +1,15 @@
+:root {
+  --black: 0, 0, 0;
+  --white: 255, 255, 255;
+  --primary: 0, 88, 208;
+  --green: 1, 147, 97;
+}
+
 /* Explore a new learning process start*/
 .main-container {
   position: relative;
   text-align: center;
-  color: #fff;
+  color:  rgb(var(--white));
   padding-top: 10%;
 }
 .images-wrapper {
@@ -84,7 +91,7 @@
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   width: 695px;
-  background: #000000 no-repeat padding-box;
+  background:  rgb(var(--black)) no-repeat padding-box;
   border: 1px solid #747474;
   border-radius: 20px;
   backdrop-filter: blur(24px);
