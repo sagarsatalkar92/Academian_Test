@@ -13,6 +13,9 @@
   .icons {
     flex-direction: column;
   }
+  .nav-items {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) {
