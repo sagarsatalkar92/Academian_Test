@@ -284,9 +284,6 @@
   }
   .nav-item {
     display: none;
-    /* margin-right: 10px !important;
-    padding: 0px !important;
-    font: normal normal 500 10px Poppins !important; */
   }
 
   .lower-img {
@@ -486,5 +483,29 @@
   .download-app p {
     font: normal normal 300 12px Poppins !important;
     letter-spacing: -0.36px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .segment-card img {
+    max-width: 200px !important;
+    height: 130px !important;
+  }
+
+  .services-grid,
+  .learning-p,
+  .vacancy h3,
+  .links a,
+  .details span,
+  .life-at-academian .text h3,
+  .hover-card h3,
+  .font-18,
+  .hover-card a {
+    font: normal normal normal 14px / 27px Poppins !important;
+  }
+
+  .header-font,
+  .learning {
+    font: normal normal 500 26px Poppins !important;
   }
 }
