@@ -19,10 +19,13 @@
     margin-left: 10px !important;
   }
 
-  .features,
   .share-icon,
-  .cards {
+  .learning-pods {
     display: none;
+  }
+
+  .app-image {
+    padding-top: 2rem;
   }
 
   .fun-text,
@@ -49,8 +52,8 @@
   }
 
   .side-image {
-    width: 120px !important;
-    height: 200px !important;
+    width: 92px !important;
+    height: 175px !important;
   }
   .left-image,
   .right-image {
@@ -63,13 +66,14 @@
   .text-card {
     width: 245px !important;
     padding: 0px !important;
+    bottom: -52px !important;
   }
   .text-card p {
     font: normal normal 300 14px Poppins !important;
   }
 
   .social-learning {
-    margin-top: 10% !important;
+    margin-top: 25% !important;
   }
 
   .space-card {
@@ -117,18 +121,36 @@
   }
   .learning-pods h2,
   .new-learning-process h2 {
-    font: normal normal normal 20px Poppins !important;
+    font: normal normal normal 18px Poppins !important;
   }
   .download-app {
     flex-direction: column !important;
   }
 
-  .cta-buttons {
-    margin-top: 0% !important;
+  .cta-buttons,
+  .features-main {
+    display: none;
   }
-  .download-btn,
-  .sign-up-btn {
-    font-size: 10px !important;
+
+  .launching-ctr {
+    display: flex;
+    place-content: center;
+  }
+  .launching-btn {
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    background: transparent !important;
+    border: 1px solid rgb(var(--white)) !important;
+    border-radius: 30px;
+    color: rgb(var(--white)) !important;
+    transform: none !important;
+    font: normal normal normal 14px Poppins;
+    letter-spacing: -0.4px;
+  }
+
+  .main-container {
+    padding-top: 14% !important;
   }
 
   .learning-pods p,
@@ -288,7 +310,7 @@
   }
   .left-image,
   .right-image {
-    margin-top: 10% !important;
+    margin-top: 18% !important;
   }
 
   .app-image img {
@@ -350,14 +372,6 @@
     letter-spacing: -0.24px;
     color: rgb(var(--white));
     padding: 0% 10% !important;
-  }
-
-  .download-btn,
-  .sign-up-btn {
-    font-size: 14px !important;
-  }
-  .cta-buttons {
-    margin-top: -8% !important;
   }
 
   .images-wrapper {
