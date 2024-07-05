@@ -380,6 +380,6 @@ section {
 .features {
   display: flex;
 }
-#featureCarousel, .card-container, .launching-btn {
+#featureCarousel, .card-container, .launching-btn, .menu-icon, .sidebar {
   display: none;
 }

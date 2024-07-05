@@ -186,11 +186,55 @@
           </li>
       </ul>
   </nav>
-      <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+  <div class="menu-icon" onclick="toggleSidebar()">
+    &#9776;
+</div>
+<div class="sidebar" id="sidebar">
+    <div class="menu-item" onclick="toggleMenu('services')">
+        <span>Services</span>
+        <span class="arrow">&#9660;</span>
+    </div>
+    <div id="services" class="submenu">
+        Services content
+    </div>
+    
+    <div class="menu-item" onclick="toggleMenu('products')">
+        <span>Products</span>
+        <span class="arrow">&#9660;</span>
+    </div>
+    <div id="products" class="submenu">
+      Products content
+    </div>
+    
+    <div class="menu-item" onclick="toggleMenu('careers')">
+        <span>Careers</span>
+        <span class="arrow">&#9660;</span>
+    </div>
+    <div id="careers" class="submenu">
+      Careers content
+    </div>
+    
+    <div class="menu-item" onclick="toggleMenu('insider')">
+        <span>Insider</span>
+        <span class="arrow">&#9660;</span>
+    </div>
+    <div id="insider" class="submenu">
+      Insider content
+    </div>
+    
+    <div class="menu-item" onclick="toggleMenu('about')">
+        <span>About Us</span>
+        <span class="arrow">&#9660;</span>
+    </div>
+    <div id="about" class="submenu">
+      About content
+    </div>
+
+    <div class="contact">
+        <button>Contact</button>
+    </div>
+</div>
+
     </header>
     <main>
       <section class="hero">
@@ -499,5 +543,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js" ></script>
   </body>
 </html>
