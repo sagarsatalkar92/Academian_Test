@@ -470,7 +470,7 @@
   .sidebar.active {
     transform: translateX(0);
     z-index: 999;
-    transform: translate(5px, 9rem);
+    transform: translate(5px, 12rem);
   }
 
   /* Sidebar :end */
