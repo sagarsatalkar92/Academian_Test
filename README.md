@@ -3,7 +3,7 @@ Instructions on How to Run/View the Project
 **Clone the Repository:**
 git clone https://github.com/sagarsatalkar92/Academian_Test
 
-cd responsive-web-page
+cd Academian_Test
 
 **Open the Project:**
 
