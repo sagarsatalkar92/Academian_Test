@@ -29,3 +29,24 @@ Assumptions Made During Implementation
 **Font Awesome:** Used for icons (https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css).
 
 **Google Fonts:** Used the Poppins font for the page's typography (https://fonts.googleapis.com/css?family=Poppins).
+
+Please see the screenshots below for different screen sizes:
+
+**Desktop view (1920 × 1080)**
+
+![Desktop view (1920 × 1080)](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/296a8cfe-660d-408a-9d84-2a0443464f90)
+![Desktop view (1920 × 1080)-V1](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/4d80c877-dab6-418a-99ec-8b81da38b2e7)
+![Desktop view (1920 × 1080)-V2](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/7c48f98d-0a95-40d5-b777-529d9b637ed0)
+![Desktop view (1920 × 1080)-V3](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/74945be3-60ed-41a8-bcdb-b4f32abf67ae)
+![Desktop view (1920 × 1080)-V4](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/392a1d18-4e60-48df-bd6a-52acb6c659f6)
+![Desktop view (1920 × 1080)-V5](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/e09fc41b-86ff-4679-ab41-af3a99cef2d7)
+![Desktop view (1920 × 1080)-V6](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/4cc01a0c-8444-4b74-906b-d2fbf9def7f6)
+
+
+
+
+**Smaller devices (428 × 824)**
+
+
+![Smaller devices (428 × 824)](https://github.com/sagarsatalkar92/Academian_Test/assets/113198182/b90ae967-0bc5-4fab-8839-6741dfe7dc17)
+
