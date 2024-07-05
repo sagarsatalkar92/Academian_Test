@@ -341,6 +341,7 @@
   .image-text {
     top: calc(25%) !important;
     padding: 0 0% !important;
+    width: -webkit-fill-available;
   }
 
   .image-text p {
