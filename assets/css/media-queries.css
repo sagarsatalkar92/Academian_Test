@@ -477,4 +477,14 @@
   }
 
   /* Sidebar :end */
+
+  .download-app h2 {
+    font: normal normal 500 25px Poppins !important;
+    letter-spacing: -0.9px;
+  }
+
+  .download-app p {
+    font: normal normal 300 12px Poppins !important;
+    letter-spacing: -0.36px;
+  }
 }

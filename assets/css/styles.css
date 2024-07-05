@@ -53,14 +53,14 @@ body {
   text-align: center;
   font: normal normal normal 80px/96px Poppins;
   letter-spacing: -1.6px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
 }
 
 .image-text p {
   text-align: center;
   font: normal normal 300 24px/42px Poppins;
   letter-spacing: 0px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
   opacity: 1;
   padding-left: 15rem;
   padding-right: 15rem;
@@ -102,8 +102,8 @@ p {
 }
 
 .hero .cta-buttons button {
-  background:  rgb(var(--white));
-  color:  rgb(var(--black));
+  background: rgb(var(--white));
+  color: rgb(var(--black));
   border: none;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
@@ -190,7 +190,7 @@ section {
 .new-learning-process p {
   font: normal normal 300 24px/36px Poppins;
   letter-spacing: -0.24px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
 }
 
 .new-learning-text {
@@ -244,7 +244,7 @@ section {
   align-items: center;
   text-align: center;
   padding: 20px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -252,7 +252,7 @@ section {
   position: absolute;
   top: 20px;
   left: 20px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
   font-size: 24px;
   transition: opacity 0.3s;
 }
@@ -313,6 +313,8 @@ section {
 .feature-card:hover .hover-text {
   display: block;
   margin-top: 20px;
+  font: normal normal normal 24px/36px Poppins;
+  letter-spacing: -0.24px;
 }
 
 .download-app {
@@ -325,21 +327,21 @@ section {
 }
 
 .download-btn {
-  background:  rgb(var(--white)) 0% 0% no-repeat padding-box;
-  border: 1px solid  rgb(var(--white));
+  background: rgb(var(--white)) 0% 0% no-repeat padding-box;
+  border: 1px solid rgb(var(--white));
   border-radius: 30px;
   transform: none !important;
   text-transform: uppercase;
   font: normal normal 500 20px Poppins !important;
   letter-spacing: -0.4px;
-  color:  rgb(var(--black))000;
+  color: rgb(var(--black)) 000;
 }
 
 .sign-up-btn {
   background: transparent !important;
-  border: 1px solid  rgb(var(--white)) !important;
+  border: 1px solid rgb(var(--white)) !important;
   border-radius: 30px;
-  color:  rgb(var(--white)) !important;
+  color: rgb(var(--white)) !important;
   transform: none !important;
   font: normal normal 500 20px Poppins;
   letter-spacing: -0.4px;
@@ -347,7 +349,7 @@ section {
 .heading {
   text-align: center;
   letter-spacing: -1.2px;
-  color:  rgb(var(--white));
+  color: rgb(var(--white));
   padding-top: 5%;
   padding-bottom: 1%;
   font: normal normal normal 60px Poppins;
@@ -357,7 +359,6 @@ section {
 }
 .fun-text,
 .social-text,
-.download-text,
 .learning-pods p,
 .learning-padiding {
   text-align: center;
@@ -380,6 +381,22 @@ section {
 .features {
   display: flex;
 }
-#featureCarousel, .card-container, .launching-btn, .menu-icon, .sidebar {
+#featureCarousel,
+.card-container,
+.launching-btn,
+.menu-icon,
+.sidebar {
   display: none;
+}
+.download-text {
+  padding: 0% 10%;
+}
+.download-app h2 {
+  font: normal normal 500 60px/84px Poppins;
+  letter-spacing: -0.9px;
+}
+
+.download-app p {
+  font: normal normal 300 24px/33px Poppins;
+  letter-spacing: -0.36px;
 }
